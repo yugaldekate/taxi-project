@@ -1,0 +1,44 @@
+export const carsData = [
+    {
+        image: "https://utfs.io/f/63816a5d-d756-42bb-a27b-cc89c94c05d7-1d.jpg",
+        model: "Bentley i400m",
+        hourlyPrice: 60,
+        dailyPrice: 620,
+        categories: "all wagon crossover",
+    },
+    {
+        image: "https://utfs.io/f/f58e63e8-d026-4ff5-bcb1-d51834d49056-1e.jpg",
+        model: "Chevorlet Trucks",
+        hourlyPrice: 75,
+        dailyPrice: 690,
+        categories: "all sedan crossover",
+    },
+    {
+        image: "https://utfs.io/f/92f540a5-5086-4438-abe4-f42ea0a6f835-1f.jpg",
+        model: "Jaguar H-Series",
+        hourlyPrice: 62,
+        dailyPrice: 640,
+        categories: "all pickups sedan compact",
+    },
+    {
+        image: "https://utfs.io/f/90068528-6acc-45b1-b9aa-0582e7191875-1g.jpg",
+        model: "Rangerover",
+        hourlyPrice: 58,
+        dailyPrice: 595,
+        categories: "all sedan wagon crossover",
+    },
+    {
+        image: "https://utfs.io/f/cfa9e102-328e-4707-8aac-1a1daf0d2b1a-1h.jpg",
+        model: "Lexus Supreme",
+        hourlyPrice: 65,
+        dailyPrice: 655,
+        categories: "all pickups sedan compact",
+    },
+    {
+        image: "https://utfs.io/f/3e451296-cde1-43f8-9a78-f1f52e0fd34b-1i.jpg",
+        model: "Aston Martin",
+        hourlyPrice: 80,
+        dailyPrice: 790,
+        categories: "all compact wagon crossover",
+    },
+];

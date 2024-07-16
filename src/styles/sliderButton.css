@@ -1,0 +1,10 @@
+/* Override the background color of the next and previous buttons */
+.slick-next:before, .slick-prev:before {
+    color: green !important; /* Change the arrow color to green */
+}
+
+/* Optional: If you want to change the background of the arrows, you can add these */
+.slick-next, .slick-prev {
+    background-color: rgba(0, 255, 0, 0.5) !important; /* Light green background */
+    border-radius: 50%; /* Circular background */
+}

@@ -1,0 +1,9 @@
+/* Assuming you add a class name 'logo-image' to your img tag */
+.logo-image {
+  display: block; /* This removes any default space below the image */
+  max-width: 100%; /* Ensures the image is responsive and fits its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  margin: 0 auto; /* Optional: Centers the image if the container is wider */
+  border: none; /* Removes any default border */
+  padding: 0; /* Removes any default padding */
+}

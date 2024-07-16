@@ -1,0 +1,33 @@
+/* angle.css */
+
+/* Base styles for the slanted background */
+.bg-green-600 {
+  position: relative; /* Required for pseudo-element positioning */
+}
+
+.bg-green-600::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -15%; /* Adjust the top position to increase the height */
+  bottom: 0;
+  width: 21%; /* Adjust the width as needed */
+  background: linear-gradient(120deg, transparent 50%, #222 50%); /* Creates the slant effect */
+  z-index: 1;
+}
+
+/* Clip path for the slanted cut */
+.angle-cut {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .angle-cut {
+    clip-path: none; /* Remove clip path on smaller screens */
+  }
+
+  .bg-green-600::after {
+    display: none; /* Hide the slant effect on smaller screens */
+  }
+}

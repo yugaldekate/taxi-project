@@ -1,0 +1,48 @@
+
+.home-banner-text-1 {
+    position: relative;
+    animation: slideDown 1s ease-out;
+}
+
+.home-banner-text-2 {
+    position: relative;
+    animation: slideInLeft 1s ease-out;
+}
+
+.home-banner-text-3 {
+    position: relative;
+    animation: slideInBottom 1s ease-out;
+}
+
+@keyframes slideDown {
+    0% {
+        top: -100px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        bottom: -100px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
